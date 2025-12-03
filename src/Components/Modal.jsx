@@ -11,11 +11,7 @@ const Modal = () => {
       });
   }, []);
 
-  const handlemoda = (p) => {
-    setModal(true);
-    console.log('puki',p)
- 
-  };
+  
   return (
     <div>
       {modal && (
@@ -47,7 +43,7 @@ const Modal = () => {
         </div>
       )}
 
-      <button onClick={() => handlemoda(data)} className="bg-base-100 px-4 py-2 rounded-md text-2xl  shadow font-bold mr-10 mt-20">
+      <button onClick={() => setModal(true)} className="bg-base-100 px-4 py-2 rounded-md text-2xl  shadow font-bold mr-10 mt-20">
         Open Modal
       </button>
     </div>
