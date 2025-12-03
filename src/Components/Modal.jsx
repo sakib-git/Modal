@@ -6,7 +6,7 @@ const Modal = () => {
     <div>
       {modal && (
         <div onClick={() => setModal(false)} className="bg-black/10 fixed inset-0  flex justify-center items-center">
-          <div onClick={(e) => e.stopPropagation()} className="bg-white w-full  max-w-[500px] p-2 rounded-md">
+          <div onClick={(e) => e.stopPropagation()} className="bg-white w-full  max-w-[500px] p-2 rounded-md max-sm:mx-2">
             <div className="text-end">
               <button onClick={() => setModal(false)} className="bg-white h-6 w-6 font-bold rounded-full shadow ">
                 X
