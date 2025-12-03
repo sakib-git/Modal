@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Sakibul hasan",
+    "age": 23,
+    "skills": ["HTML", "CSS", "JavaScript", "react"],
+    "isStudent": true
+  }
+]
